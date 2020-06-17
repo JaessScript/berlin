@@ -19,6 +19,8 @@ function setup() {
 
 	tv = select('#tv');
 	tv.position(windowWidth / 3, windowHeight / 2);
+	tv.style('width:', '100%');
+	tv.style('height:', 'auto');
 }
 
 function changeColor() {
