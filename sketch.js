@@ -4,7 +4,7 @@ let tv;
 let info;
 let bg_info;
 let x = 70;
-let y = 50;
+let y = 80;
 
 function windowResized() {
 	resizeCanvas(windowWidth, windowHeight);
